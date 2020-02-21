@@ -5,6 +5,7 @@ import express from "express";
 import userRouter from "./routers/userRouter";
 import videoRouter from "./routers/videoRouter";
 import globalRouter from "./routers/globalRouter";
+import routes from "./routes";
 
 const app = express();
 
@@ -15,8 +16,8 @@ const handleProfile = (req, res) => res.send("You are on my profile");
 
 app.get("/", handleHome);
 app.get("/profile", handleProfile);*/
-app.use("/", globalRouter);
-app.use("/users", userRouter);
-app.use("/videos", videoRouter);
+app.use(routes.home, globalRouter);
+app.use(routes.users, userRouter);
+app.use(routes.videos, videoRouter);
 
 export default app;
