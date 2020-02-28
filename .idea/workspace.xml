@@ -91,8 +91,10 @@
         <entry file="file://$PROJECT_DIR$/views/home.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
-              <folding />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <marker date="1582629647515" expanded="true" signature="63:64" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -382,7 +384,7 @@
     <option name="totallyTimeSpent" value="41461000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="285" y="102" width="1600" height="1051" extended-state="1" />
+    <frame x="285" y="102" width="1600" height="1051" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -671,8 +673,10 @@
     <entry file="file://$PROJECT_DIR$/views/home.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
-          <folding />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1582629647515" expanded="true" signature="63:64" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
