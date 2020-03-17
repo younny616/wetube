@@ -17,4 +17,4 @@ const handleOpen = () => console.log("connected to db");
 const handleError = () => console.log(`connected to error: ${error}`);
 
 db.once("open", handleOpen);
-db.on("error", handleOpen);
+db.on("error", handleError);
